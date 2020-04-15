@@ -1,0 +1,22 @@
+<aside class="tsd-sources">
+    {{#if implementationOf}}
+        <p>实现了 {{#with implementationOf}}{{> typeAndParent}}{{/with}}</p>
+    {{/if}}
+    {{#if inheritedFrom}}
+        <p>继承自 {{#with inheritedFrom}}{{> typeAndParent}}{{/with}}</p>
+    {{/if}}
+    {{#if overwrites}}
+        <p>重写(Override) {{#with overwrites}}{{> typeAndParent}}{{/with}}</p>
+    {{/if}}
+    {{#if sources}}
+        <ul>
+            {{#each sources}}
+                {{#if url}}
+                    <li>定义在 <a href="{{url}}">{{fileName}}:{{line}}</a></li>
+                {{else}}
+                    <li>定义在 {{fileName}}:{{line}}</li>
+                {{/if}}
+            {{/each}}
+        </ul>
+    {{/if}}
+</aside>

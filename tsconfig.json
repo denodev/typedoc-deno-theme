@@ -1,0 +1,23 @@
+{
+  "include": [
+    "src/assets/js/src/**/*.ts",
+    "src/assets/js/src/~bootstrap.ts"
+  ],
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "ES2016",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "amd",
+    "declaration": false,
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "allowJs": true,
+    "outFile": "./src/assets/js/main.js",
+    "strict": true,
+    "alwaysStrict": false,
+    "noImplicitUseStrict": true
+  }
+}

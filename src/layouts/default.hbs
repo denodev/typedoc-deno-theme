@@ -1,0 +1,42 @@
+<!doctype html>
+<html class="minimal no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>{{model.name}} | {{project.name}}</title>
+    <meta name="keywords" content="Deno,TypeScript,Typedoc,Document,文档,中文文档" />
+    <meta name="description" content="Deno 简体中文文档参考手册。本文档是非官方 Deno 简体中文文档，有中文开发者社区的志愿者们维护。">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{relativeURL "assets/css/main.css"}}">
+</head>
+<body>
+
+{{> header}}
+
+<nav class="tsd-navigation secondary">
+    <ul>
+        {{#each toc.children}}
+            {{> toc}}
+        {{/each}}
+    </ul>
+</nav>
+
+<div class="container container-main">
+    <div class="content-wrap">
+        {{#if model.readme}}
+                <div class="tsd-panel tsd-typography">
+                        {{#markdown}}{{{model.readme}}}{{/markdown}}
+                </div>
+        {{/if}}
+
+        {{{contents}}}
+        {{> footer}}
+    </div>
+</div>
+
+<script src="{{relativeURL "assets/js/main.js"}}"></script>
+{{> analytics}}
+
+</body>
+</html>
