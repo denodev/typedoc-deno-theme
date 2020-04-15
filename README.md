@@ -8,5 +8,5 @@ Base on typedoc's default theme.
 
 Copyright (c) 2015 [Sebastian Lenz](http://www.sebastian-lenz.de).<br>
 Copyright (c) 2016-2020 [TypeDoc Contributors](https://github.com/TypeStrong/typedoc/graphs/contributors).<br>
-Copyright (c) 2020 [typedoc-deno-theme Contributors](https://github.com/denodev/typedoc/graphs/contributors).<br>
+Copyright (c) 2020 [typedoc-deno-theme Contributors](https://github.com/denodev/typedoc-deno-theme/graphs/contributors).<br>
 Licensed under the Apache License 2.0.
