@@ -1,7 +1,7 @@
 {
   "name": "typedoc-deno-theme",
   "description": "Deno theme for TypeDoc.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/denodev/typedoc-deno-theme",
   "files": [
     "dist",
@@ -12,7 +12,7 @@
     "clean": "rimraf bin",
     "grunt": "grunt",
     "build": "yarn clean && yarn grunt",
-    "prepublish": "yarn build"
+    "prepublishOnly": "yarn build"
   },
   "repository": {
     "type": "git",
