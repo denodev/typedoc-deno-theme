@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-"@types/lunr@^2.3.2":
-  version "2.3.3"
-  resolved "https://registry.npm.taobao.org/@types/lunr/download/@types/lunr-2.3.3.tgz#ec985618fd2712c010f8edab4f1ae7784ad7c583"
-  integrity sha1-7JhWGP0nEsAQ+O2rTxrneErXxYM=
-
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.npm.taobao.org/abbrev/download/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -239,7 +234,7 @@ cache-base@^1.0.1:
 
 camelcase-keys@^2.0.0:
   version "2.1.0"
-  resolved "https://registry.npm.taobao.org/camelcase-keys/download/camelcase-keys-2.1.0.tgz#308beeaffdf28119051efa1d932213c91b8f92e7"
+  resolved "https://registry.npm.taobao.org/camelcase-keys/download/camelcase-keys-2.1.0.tgz?cache=0&sync_timestamp=1585887316421&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcamelcase-keys%2Fdownload%2Fcamelcase-keys-2.1.0.tgz#308beeaffdf28119051efa1d932213c91b8f92e7"
   integrity sha1-MIvur/3ygRkFHvodkyITyRuPkuc=
   dependencies:
     camelcase "^2.0.0"
@@ -357,7 +352,7 @@ color-name@1.1.3:
 
 colors@~1.1.2:
   version "1.1.2"
-  resolved "https://registry.npm.taobao.org/colors/download/colors-1.1.2.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcolors%2Fdownload%2Fcolors-1.1.2.tgz#168a4701756b6a7f51a12ce0c97bfa28c084ed63"
+  resolved "https://registry.npm.taobao.org/colors/download/colors-1.1.2.tgz#168a4701756b6a7f51a12ce0c97bfa28c084ed63"
   integrity sha1-FopHAXVran9RoSzgyXv6KMCE7WM=
 
 commander@~2.20.3:
@@ -814,7 +809,7 @@ globule@^1.0.0:
 
 graceful-fs@^4.1.11, graceful-fs@^4.1.2:
   version "4.2.3"
-  resolved "https://registry.npm.taobao.org/graceful-fs/download/graceful-fs-4.2.3.tgz#4a12ff1b60376ef09862c2093edd908328be8423"
+  resolved "https://registry.npm.taobao.org/graceful-fs/download/graceful-fs-4.2.3.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fgraceful-fs%2Fdownload%2Fgraceful-fs-4.2.3.tgz#4a12ff1b60376ef09862c2093edd908328be8423"
   integrity sha1-ShL/G2A3bvCYYsIJPt2Qgyi+hCM=
 
 grunt-autoprefixer@^3.0.4:
@@ -1224,7 +1219,7 @@ is-relative@^1.0.0:
 
 is-unc-path@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.npm.taobao.org/is-unc-path/download/is-unc-path-1.0.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fis-unc-path%2Fdownload%2Fis-unc-path-1.0.0.tgz#d731e8898ed090a12c352ad2eaed5095ad322c9d"
+  resolved "https://registry.npm.taobao.org/is-unc-path/download/is-unc-path-1.0.0.tgz#d731e8898ed090a12c352ad2eaed5095ad322c9d"
   integrity sha1-1zHoiY7QkKEsNSrS6u1Qla0yLJ0=
   dependencies:
     unc-path-regex "^0.1.2"
@@ -1744,7 +1739,7 @@ read-pkg@^1.0.0:
 
 readable-stream@^2.0.2:
   version "2.3.7"
-  resolved "https://registry.npm.taobao.org/readable-stream/download/readable-stream-2.3.7.tgz#1eca1cf711aef814c04f62252a36a62f6cb23b57"
+  resolved "https://registry.npm.taobao.org/readable-stream/download/readable-stream-2.3.7.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freadable-stream%2Fdownload%2Freadable-stream-2.3.7.tgz#1eca1cf711aef814c04f62252a36a62f6cb23b57"
   integrity sha1-Hsoc9xGu+BTAT2IlKjamL2yyO1c=
   dependencies:
     core-util-is "~1.0.0"
@@ -1848,19 +1843,19 @@ ret@~0.1.10:
 
 rimraf@2.2.6:
   version "2.2.6"
-  resolved "https://registry.npm.taobao.org/rimraf/download/rimraf-2.2.6.tgz?cache=0&sync_timestamp=1581257110269&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Frimraf%2Fdownload%2Frimraf-2.2.6.tgz#c59597569b14d956ad29cacc42bdddf5f0ea4f4c"
+  resolved "https://registry.npm.taobao.org/rimraf/download/rimraf-2.2.6.tgz#c59597569b14d956ad29cacc42bdddf5f0ea4f4c"
   integrity sha1-xZWXVpsU2VatKcrMQr3d9fDqT0w=
 
 rimraf@^3.0.2:
   version "3.0.2"
-  resolved "https://registry.npm.taobao.org/rimraf/download/rimraf-3.0.2.tgz?cache=0&sync_timestamp=1581257110269&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Frimraf%2Fdownload%2Frimraf-3.0.2.tgz#f1a5402ba6220ad52cc1282bac1ae3aa49fd061a"
+  resolved "https://registry.npm.taobao.org/rimraf/download/rimraf-3.0.2.tgz#f1a5402ba6220ad52cc1282bac1ae3aa49fd061a"
   integrity sha1-8aVAK6YiCtUswSgrrBrjqkn9Bho=
   dependencies:
     glob "^7.1.3"
 
 rimraf@~2.6.2:
   version "2.6.3"
-  resolved "https://registry.npm.taobao.org/rimraf/download/rimraf-2.6.3.tgz?cache=0&sync_timestamp=1581257110269&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Frimraf%2Fdownload%2Frimraf-2.6.3.tgz#b2d104fe0d8fb27cf9e0a1cda8262dd3833c6cab"
+  resolved "https://registry.npm.taobao.org/rimraf/download/rimraf-2.6.3.tgz#b2d104fe0d8fb27cf9e0a1cda8262dd3833c6cab"
   integrity sha1-stEE/g2Psnz54KHNqCYt04M8bKs=
   dependencies:
     glob "^7.1.3"
@@ -1972,12 +1967,12 @@ source-map-url@^0.4.0:
 
 source-map@^0.5.6:
   version "0.5.7"
-  resolved "https://registry.npm.taobao.org/source-map/download/source-map-0.5.7.tgz?cache=0&sync_timestamp=1567937985360&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsource-map%2Fdownload%2Fsource-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
+  resolved "https://registry.npm.taobao.org/source-map/download/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
   integrity sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w=
 
 source-map@~0.4.2:
   version "0.4.4"
-  resolved "https://registry.npm.taobao.org/source-map/download/source-map-0.4.4.tgz?cache=0&sync_timestamp=1567937985360&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsource-map%2Fdownload%2Fsource-map-0.4.4.tgz#eba4f5da9c0dc999de68032d8b4f76173652036b"
+  resolved "https://registry.npm.taobao.org/source-map/download/source-map-0.4.4.tgz#eba4f5da9c0dc999de68032d8b4f76173652036b"
   integrity sha1-66T12pwNyZneaAMti092FzZSA2s=
   dependencies:
     amdefine ">=0.0.4"
@@ -2146,7 +2141,7 @@ trim-newlines@^1.0.0:
 
 typescript@^3.8.3:
   version "3.8.3"
-  resolved "https://registry.npm.taobao.org/typescript/download/typescript-3.8.3.tgz?cache=0&sync_timestamp=1586848481665&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftypescript%2Fdownload%2Ftypescript-3.8.3.tgz#409eb8544ea0335711205869ec458ab109ee1061"
+  resolved "https://registry.npm.taobao.org/typescript/download/typescript-3.8.3.tgz#409eb8544ea0335711205869ec458ab109ee1061"
   integrity sha1-QJ64VE6gM1cRIFhp7EWKsQnuEGE=
 
 uglify-js@^3.5.0:
