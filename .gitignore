@@ -8,6 +8,6 @@ node_modules
 npm-debug.log
 etc
 dist
-src/default/assets/js/main.js
-src/default/assets/js/main.js.map
+src/assets/js/main.js
+src/assets/js/main.js.map
 typedoc-deno-themes-*.tgz
