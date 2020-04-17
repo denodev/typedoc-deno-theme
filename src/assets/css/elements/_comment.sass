@@ -51,3 +51,24 @@ dl.tsd-comment-tags
 
     &:last-child
         margin-bottom: 0
+
+// add i18n support
+
+.tsd-comment .lead
+    &.on
+        margin-bottom: 0
+
+.tsd-comment .tsd_i18n
+    + .tsd_en
+        display: none
+        border-top: 1px dashed #0273d4
+
+    &.on
+        > p 
+            margin-bottom: 0
+
+        + .tsd_en
+            display: block
+
+            > p
+                margin-top: 0
