@@ -1,13 +1,25 @@
 {{#with comment}}
     {{#if hasVisibleComponent}}
         <div class="tsd-comment tsd-typography">
+            {{#if shortText_i18n}}
+                <div class="lead tsd_i18n">
+                    {{#markdown}}{{{shortText_i18n}}}{{/markdown}}
+                </div>
+            {{/if}}
             {{#if shortText}}
-                <div class="lead">
+                <div class="lead tsd_en">
                     {{#markdown}}{{{shortText}}}{{/markdown}}
                 </div>
             {{/if}}
+            {{#if text_i18n}}
+                <div class="tsd_i18n">
+                    {{#markdown}}{{{text_i18n}}}{{/markdown}}
+                </div>
+            {{/if}}
             {{#if text}}
-                {{#markdown}}{{{text}}}{{/markdown}}
+                <div class="tsd_en">
+                    {{#markdown}}{{{text}}}{{/markdown}}
+                </div>
             {{/if}}
             {{#if tags}}
                 <dl class="tsd-comment-tags">
