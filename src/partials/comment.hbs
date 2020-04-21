@@ -11,16 +11,30 @@
                     {{#markdown}}{{{shortText}}}{{/markdown}}
                 </div>
             {{/if}}
-            {{#if text_i18n}}
-                <div class="tsd_i18n">
-                    {{#markdown}}{{{text_i18n}}}{{/markdown}}
-                </div>
-            {{/if}}
-            {{#if text}}
+            
+            {{#unless text_line_i18n}}
+                {{#if text_i18n}}
+                    <div class="tsd_i18n">
+                        {{#markdown}}{{{text_i18n}}}{{/markdown}}
+                    </div>
+                {{/if}}
+                {{#if text}}
+                    <div class="tsd_en">
+                        {{#markdown}}{{{text}}}{{/markdown}}
+                    </div>
+                {{/if}}
+            {{/unless}}
+
+            {{#each text_line_i18n}}
+                {{#if this}}
+                    <div class="tsd_i18n">
+                        {{#markdown}}{{{this}}}{{/markdown}}
+                    </div>
+                {{/if}}
                 <div class="tsd_en">
-                    {{#markdown}}{{{text}}}{{/markdown}}
+                    {{#markdown}}{{{lookup ../text_line_en @index}}}{{/markdown}}
                 </div>
-            {{/if}}
+            {{/each}}
             {{#if tags}}
                 <dl class="tsd-comment-tags">
                     {{#each tags}}
