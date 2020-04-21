@@ -5,7 +5,7 @@
 {{> comment}}
 
 {{#if typeParameters}}
-    <h4 class="tsd-type-parameters-title">参数类型(范型)</h4>
+    <h4 class="tsd-type-parameters-title">类型参数(范型)</h4>
     {{> typeParameters}}
 {{/if}}
 
@@ -44,8 +44,15 @@
 {{#if type}}
     <h4 class="tsd-returns-title">返回 {{#compact}}{{#with type}}{{>type}}{{/with}}{{/compact}}</h4>
 
+    {{#if comment.returns_i18n}}
+        <div class="tsd_i18n">
+            {{#markdown}}{{{comment.returns_i18n}}}{{/markdown}}
+        </div>
+    {{/if}}
     {{#if comment.returns}}
-        {{#markdown}}{{{comment.returns}}}{{/markdown}}
+        <div class="tsd_en">
+            {{#markdown}}{{{comment.returns}}}{{/markdown}}
+        </div>
     {{/if}}
 
     {{#if type.declaration}}
